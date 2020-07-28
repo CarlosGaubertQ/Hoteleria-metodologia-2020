@@ -1,0 +1,29 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: normal;
+}
+
+footer{
+  font-size: 1.1rem;
+}
+
+nav{
+  background: rgba(203, 215, 209, 1);
+}
+
+table{
+  text-align: center;
+  background-color: white;
+}
+
+th{
+  border:solid 3px black;
+  background-color: rgb(159, 212, 76);
+  padding: 1rem;
+}
+
+td{
+  border: solid;
+  padding: 1rem;
+}
