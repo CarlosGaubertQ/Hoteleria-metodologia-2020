@@ -1,0 +1,54 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: normal;
+  }
+  
+  footer{
+    font-size: 1.1rem;
+  }
+  
+  nav{
+    background: rgba(122,44,100,1);
+background: -moz-linear-gradient(left, rgba(122,44,100,1) 0%, rgba(122,44,100,1) 29%, rgba(122,44,100,1) 48%, rgba(170,97,204,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(122,44,100,1)), color-stop(29%, rgba(122,44,100,1)), color-stop(48%, rgba(122,44,100,1)), color-stop(100%, rgba(170,97,204,1)));
+background: -webkit-linear-gradient(left, rgba(122,44,100,1) 0%, rgba(122,44,100,1) 29%, rgba(122,44,100,1) 48%, rgba(170,97,204,1) 100%);
+background: -o-linear-gradient(left, rgba(122,44,100,1) 0%, rgba(122,44,100,1) 29%, rgba(122,44,100,1) 48%, rgba(170,97,204,1) 100%);
+background: -ms-linear-gradient(left, rgba(122,44,100,1) 0%, rgba(122,44,100,1) 29%, rgba(122,44,100,1) 48%, rgba(170,97,204,1) 100%);
+background: linear-gradient(to right, rgba(122,44,100,1) 0%, rgba(122,44,100,1) 29%, rgba(122,44,100,1) 48%, rgba(170,97,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a2c64', endColorstr='#aa61cc', GradientType=1 );
+    /*background: rgba(170,97,204,1);
+    background: -moz-linear-gradient(left, rgba(170,97,204,1) 0%, rgba(170,97,204,1) 16%, rgba(187,56,220,1) 47%, rgba(104,45,124,1) 80%, rgba(104,45,124,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(170,97,204,1)), color-stop(16%, rgba(170,97,204,1)), color-stop(47%, rgba(187,56,220,1)), color-stop(80%, rgba(104,45,124,1)), color-stop(100%, rgba(104,45,124,1)));
+    background: -webkit-linear-gradient(left, rgba(170,97,204,1) 0%, rgba(170,97,204,1) 16%, rgba(187,56,220,1) 47%, rgba(104,45,124,1) 80%, rgba(104,45,124,1) 100%);
+    background: -o-linear-gradient(left, rgba(170,97,204,1) 0%, rgba(170,97,204,1) 16%, rgba(187,56,220,1) 47%, rgba(104,45,124,1) 80%, rgba(104,45,124,1) 100%);
+    background: -ms-linear-gradient(left, rgba(170,97,204,1) 0%, rgba(170,97,204,1) 16%, rgba(187,56,220,1) 47%, rgba(104,45,124,1) 80%, rgba(104,45,124,1) 100%);
+    background: linear-gradient(to right, rgba(170,97,204,1) 0%, rgba(170,97,204,1) 16%, rgba(187,56,220,1) 47%, rgba(104,45,124,1) 80%, rgba(104,45,124,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa61cc', endColorstr='#682d7c', GradientType=1 ); */
+  }
+  
+  table{
+    text-align: center;
+    background-color: white;
+  }
+  
+  th{
+    border:solid 3px black;
+    background-color: rgba(170,97,204,1);
+    padding: 1rem;
+  }
+  
+  td{
+    border: solid;
+    padding: 1rem;
+  }
+  
+  .selected {
+      background-color: brown;
+      color: #FFF;
+  }
+  
+  h3{
+    color: rgb(117, 111, 116);
+  }
+  

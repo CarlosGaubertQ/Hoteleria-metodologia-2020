@@ -26,7 +26,7 @@
         <a href="../index.php"><img src="../img/logohotel.png" alt="" width="10%" style="margin-left:1rem;"></a> 
       </div>
       <div class="col-6">
-        <a href="../index.php"style="display:flex; justify-content:flex-end"><img src="../img/atras2.png" alt="" width="10%"></a>
+        <a href="../index.php"style="display:flex; justify-content:flex-end"><img src="../img/atras.png" alt="" width="10%"></a>
       </div>
     </div>
   </div>

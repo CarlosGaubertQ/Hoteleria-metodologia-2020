@@ -25,35 +25,31 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mr-auto" style="margin-left:9rem;">
       <li class="nav-item">
-        <a class="nav-link" href="#">Inicio</a>
+        <a class="nav-link" href="./estadia/estadia.php"><u><i>Reservas</i></u></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="estadia.php">Estadia</a>
+        <a class="nav-link" href="./Pasajero/pasajeros.php"><u><i>Pasajeros</i></u></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./Pasajero/pasajeros.php">Pasajeros</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./habitaciones/habitaciones.php">Habitaciones</a>
+        <a class="nav-link" href="./habitacion/habitaciones.php"><u><i>Habitaciones</i></u></a>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <form class="form-inline my-2 my-lg-0">  
     </form>
   </div>
 </nav>
 
 <main>
   <div class="container" style="margin-top:4rem">
-    <h1 align="center"><b><u>Hotel California</u></b></h1>
+    <h1 align="center"><b><u><i>Hotel California</i></u></b></h1>
     <br>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <br>
     <div class="estrellas" align="center">
-        <img src="img/Inicio.jpg" alt="imagen hotel" width="60%">
-        <hr>
-        <img src="img/estrellas.png" alt="estrellas" width="30%">
+        <img src="img/hotel-5-estrellas.jpeg" alt="imagen hotel" width="65%">
+        <br>
+        <br>
     </div>
   </div>
 </main>
@@ -69,6 +65,9 @@
       <script src=js/hora.js>  </script>
       <div id="reloj" style="font-family: 'DS-Digital';background-color: white;font-size:1em;color: rgb(74, 112, 15);"></div></a></li>
 </footer>
+<div>
+
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

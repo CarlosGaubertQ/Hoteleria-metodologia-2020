@@ -16,14 +16,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="main2.css">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <title>Proyecto Semestral</title>
   </head>
 
 <body>
-<nav style="background: rgb(187, 133, 204)">
+<nav>
   <div class="container-fluid">
     <div class="row">
       <div class="col-6">
@@ -38,7 +38,7 @@
 
 <main>
   <div class="container" style="margin-top:3rem">
-    <h1 align="center"><b><u>Modificar Habitacion</u></b></h1>
+    <h1 align="center"><b><u><i>Modificar Habitacion</i></u></b></h1>
     <br>
     <p>Hola! Bienvenido/a, este este apartado te permitira modificar una habitacion</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididr. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -54,16 +54,20 @@
           switch ($_GET["m"]) {
             case '1':
               ?>
-                <div class="alert alert-danger" role="alert">
-                  Especifica datos a modificar
+              <div class="container">
+                <div class="alert alert-danger" role="alert" align="center">
+                <b>  -- Especifica datos a modificar -- </b>
                 </div>
+              </div>
               <?php
             break;
             case '2':
               ?>
-                <div class="alert alert-success" role="alert">
-                  Los Datos han sido modificados exitosamente
+              <div class="container">
+                <div class="alert alert-success" role="alert" align="center">
+                 <b>-- Los Datos han sido modificados exitosamente -- </b>
                 </div>
+              </div>
               <?php
               break;
           }
@@ -76,7 +80,7 @@
       <div class="col-12 col-md-12">
         <table>
           <tr>
-            <th style="background: rgb(187, 133, 204)">Hotel</th><th style="background: rgb(187, 133, 204)">Tipo de habitacion</th><th style="background: rgb(187, 133, 204)">Nombre de Habitacion</th>
+            <th>Hotel</th><th>Tipo de habitacion</th><th>Nombre de Habitacion</th>
           </tr>
           <tr>
             <td>
@@ -112,7 +116,7 @@
     </div>
     <input type="hidden" name="grabar" value="si"/>
     <input type="hidden" name="id" value="<?php echo $_GET['numero']; ?>"/>
-    <input width="4%" type="image" alt="submit"  src="../img/editarhabitacion.png" />
+    <input width="6%" type="image" alt="submit"  src="../img/editarhabitacion.png" />
     
   </div>
 </form>
@@ -123,7 +127,7 @@
     <li class="nav-item"><a class="nav-link" href="#"><b>Hotel California</b></a></li>
     <li class="nav-item"><a class="nav-link" href="#">
           <div style="float:left;">
-          <script src=.../js/fecha.js></script></div></a></li>
+          <script src=../js/fecha.js></script></div></a></li>
     <li class="nav-item"><a class="nav-link" href="#">
       <script src=../js/hora.js>  </script>
       <div id="reloj" style="font-family: 'DS-Digital';background-color: white;font-size:1em;color: rgb(74, 112, 15);"></div></a></li>
