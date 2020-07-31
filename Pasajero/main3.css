@@ -47,4 +47,11 @@ body{
   h4{
     color: rgba(255,146,10,1);
   }
+
+  h1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 8px;
+    font-size: 60px;
+  }
+  
   

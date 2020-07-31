@@ -3,3 +3,4 @@
     $tra = new BD();
     $tra->regSalida($_GET['numero'],$_GET['dni']);
 ?>
+

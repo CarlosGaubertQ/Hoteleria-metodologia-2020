@@ -13,6 +13,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="main3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <title>Proyecto Semestral</title>
@@ -35,7 +36,7 @@
 <main>
   <div class="container" style="margin-top:1rem">
     <br>
-    <h1 align="center"><b><u><i>PASAJEROS</i></u></b></h1>
+    <h1 align="center">PASAJEROS</h1>
     <br>
     <p>Hola! Bienvenido/a, este este apartado podras registrar nuevos pasajeros y visualizar a los ya inscritos!, tambien permite modificar los datos de los pasajeros</p>
     <hr>

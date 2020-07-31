@@ -27,3 +27,9 @@ td{
   border: solid;
   padding: 1rem;
 }
+
+h1{
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 8px;
+  font-size: 60px;
+}

@@ -43,3 +43,10 @@ td{
 h3{
   color: rgb(117, 111, 116);
 }
+
+h1{
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 8px;
+  font-size: 60px;
+}
+
