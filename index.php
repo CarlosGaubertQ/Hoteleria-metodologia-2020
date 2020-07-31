@@ -58,20 +58,16 @@
   </main>
 
   <footer class="footer">
-    <hr>
-    <ul class="nav justify-content-center">
-      <li class="nav-item"><a class="nav-link" href="#"><b>Hotel California</b></a></li>
-      <li class="nav-item"><a class="nav-link" href="#">
+  <hr>
+  <ul class="nav justify-content-center">
+    <li class="nav-item"><a class="nav-link" href="#"><b>Hotel California</b></a></li>
+    <li class="nav-item"><a class="nav-link" href="#">
           <div style="float:left;">
-            <script src=js/fecha.js> </script> </div> </a> </li> <li class="nav-item">
-              < a class = "nav-link"
-              href = "#" >
-                <
-                script src = js / hora.js >
-            </script>
-            <div id="reloj" style="font-family: 'DS-Digital';background-color: white;font-size:1em;color: rgb(74, 112, 15);"></div>
-        </a></li>
-  </footer>
+          <script src=./js/fecha.js></script></div></a></li>
+    <li class="nav-item"><a class="nav-link" href="#">
+      <script src=./js/hora.js>  </script>
+      <div id="reloj" style="font-family: 'DS-Digital';background-color: white;font-size:1em;color: rgb(74, 112, 15);"></div></a></li>
+</footer>
   <div>
 
   </div>

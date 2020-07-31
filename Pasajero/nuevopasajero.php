@@ -79,7 +79,7 @@
     <div class="row">
       <div class="col-12 col-md-4">
         <h4><b>DNI:</b></h4>
-        <input type="text" name="dni" value="">
+        <input type="number" name="dni" value="">
       </div>
       <div class="col-12 col-md-4">
         <h4><b>Nombre:</b></h4>
