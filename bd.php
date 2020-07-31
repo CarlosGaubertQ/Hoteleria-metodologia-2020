@@ -8,7 +8,7 @@
         private $pasajeros;
 
         public function __construct(){
-            $this->dbh = new PDO('pgsql:host=localhost;port=5432;dbname=Hoteles','postgres', 'd380b6bd');
+            $this->dbh = new PDO('pgsql:host=localhost;port=5433;dbname=Hoteles','postgres', '1234');
             $this->reservas= array();
             $this->habitaciones = array();
             $this->tipo_habitaciones = array();
